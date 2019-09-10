@@ -1,0 +1,6 @@
+cd ~/Desktop: move working directory to Desktop
+mkdir directory: make a 'directory' directory
+cd directory/: move working directory to 'directory'
+
+git init: initialize current working directory
+touch Git Docs.txt: create a new file called 'Git Docs' as a txt file
