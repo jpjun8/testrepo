@@ -23,4 +23,8 @@ The Procedures:
 3. git status several times to check modifications.
 4. When the file is done editing, git add . to add modified files to staging environment.
 5. Use git commit -m "message" to commit.
-6. 
+6. Use git push origin <branchname> to update repository's branch.
+7. Use git merge <branchname> to merge current one with <branchname>.
+
+Summary: Create/Edit file -> git add . -> git commit -m "message"
+-> git push origin master (Mostly use this one except when using branches)
