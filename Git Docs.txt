@@ -4,3 +4,13 @@ cd directory/: move working directory to 'directory'
 
 git init: initialize current working directory
 touch Git Docs.txt: create a new file called 'Git Docs' as a txt file
+git add .: add untracked files to update git status
+git commit:
+  make changes to your "repo".
+  this should be used after using 'git add' to add files to staging environment.
+git branch: show branches, always including master branch
+git merge: you can merge your changes from your branch into the master branch.
+git checkout -b <branchname>: create a new branch and then move to that branch.
+git remote add origin <repoURL>: add this directory to github repo remotely.
+git push -u origin master: push all elements of directory to repo.
+git push origin <branchname>: push branch to repo.
