@@ -28,3 +28,5 @@ The Procedures:
 
 Summary: Create/Edit file -> git add . -> git commit -m "message"
 -> git push origin master (Mostly use this one except when using branches)
+
+***You have to go to directory you made changes to use git add . then commit as well***
